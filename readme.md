@@ -17,7 +17,7 @@ stávajících nachází, můžete udělat PR. Případně mi vaše otázky posl
 ## Licence
 Možná v budoucnu přidám nějakou formálnější licenci, ale prozatím...
 Většina věcí zde byla vytvořena mnou 
-a všechno takové je a bude zcela volně k šíření, úpravám, a tak podobně.
+a všechno takové je a bude zcela volně k šíření, úpravám a tak podobně.
 Pokud je tu něco cizího, je to vždy osvětleno v readme.md u příslušného souboru,
 který by měl odkazovat i na relevantní zdroj.
 Pokud byste našli něco, co tu nemá být, dejte mi prosím vědět a já to napravím.
