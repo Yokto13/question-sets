@@ -1,0 +1,33 @@
+Question,Answer
+K ?emu slouží Post Office Protocol?,"Pro p?ístup uživatel?m k pošt schránce, nahrazován IMAP, plaintext použtí Obsoleted 2018"
+"Na jakém portu Poct Office Protocol funguje, RFC, a verze?","Port 110, verze 3, RFC 1939"
+Nevýhody Post Office Protocol?,"Heslo v plaintextu, dopisy se z serveru stahují celé, nelze pracovat se strukturou dokument?"
+Rozší?ení Post Office Protocol?,"APOP pro šifrovanou autentikaci, TOP pro stažení za?átku dopisu"
+Port IMAPu?,"143, 993 šifrování"
+Výhody IMAP oproti POP?,"Šifrovatelné, server uchovává stavy dopis?, více schránek, vydání jen ?ásti dopisu, vyhledávání v dopisech na serveru, paralelní p?íkazy"
+Co umož?uje IMAP posílat více p?íkaz? naráz?,"Každý p?íkaz má identifikátor, takže server dokáže snadno rozlišit jakou odpov?? poslat na jaký dotaz."
+Jak fungovaly v Gopheru obrázky?,"Um?l poskytnout pouze textové informace, uživatel si musel otev?ít obrázek v jiném programu, by? ho Gopher stáhnul."
+Kde se zrodil World Wide Web?,"V CERNu roku 1989, myšlenka hypertextu a hypermediálního textu byla už ale d?ív"
+Verze HTTP 1.1?,"Textový, server odpovídám kódem odpov?di hlavi?kami s MIME typem zasílaného dokumentu a dokumentem"
+HTTP port?,80
+Chybové kódy v HTTP,"1xx mý? na serveru, 2xx definitivni, 3xx mí? u klienta, 4xx chyba u klienta, 5xx chyba u serveru"
+Metody HTTP,"GET, HEAD, POST, PUT, DELETE, CONNECT"
+Které HTTP metody jsou bezbe?né?,"GET, HEAD"
+Ketrá jediná HTTP metoda není idempotentní?,POST
+Obecn? k HTTP v2?,"Binární, v?tší propustnosti, lze na n?j p?echázeet v rámci HTTP/1, efektivní komprimace hlavi?ek, více stream? v rámci jednoho TCP, pushování dat klientovi"
+K ?emu se dá dnes použíte telnet?,"Navázání spojení na server pracující v jiném protokolu, na odd?leném segmentu lokální sít?"
+Co nahrazuje telnet?,SSH
+Port pro SSH?,22
+Klienti pro SSH na windows? :(,"putty, winscp"
+Co umož?uje navíc SSH v2?,"Tunelování, SSHFS, paralelní kanály"
+K ?emu slouží Voice over IP?,Obecn? nástroje na p?enos (nejen) hlasu pomocí TCP/IP. Nejde o jeden konkrétní protokol.
+Co ozna?uje H.323?,"?ádu samostatných protokol? pro Voice over IP, binární, ne?itelné a velmi obtížn? implementovatelné"
+Co nahrazuje v H.323 fázi p?ípravy hovoru?,SIP
+Co v H.323 zodpovídá za posílání audia a videa?,RTP protokol
+Co v H.323 ?ídí ?innost protokoluv RTP?,Protokol RTCP
+Co ozna?uje ASN1?,Abstract Syntact Notation 1 (notn? abstraktní zkratka)
+Co je výhodoy ASN1?,"Je extrémn? kompaktní, tím že pracuje s daty po bitech. Ale je to složité na implementaci."
+Jaký port využívá SIP?,5060
+Kterému protokolu se architekturou podobá SIP?,HTTP
+Jak ?eší SIP vlastní p?enos dat?,"Ne?eší, používá RTP/RTCP"
+"Co to znamená, když je metoda idempotentní?",Opakováné užití má stejný efekt

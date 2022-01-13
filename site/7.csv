@@ -1,0 +1,40 @@
+Question,Answer
+Jak nazýváme další směřovač anglicky?,Next-hop router (gateway)
+Co obsahuje směřovací tabulka?,"Trojice cíl, mask, gateway"
+Jak se dříve říkalo záznamům s maskou /32 v směrovací tabulce?,host route
+Z hlediska vzniku dělíme záznamy v směřovací tabulce na:,"implicitní, explicitní, dynamické"
+Čím se na UNIXu nastavuje adresa síťového rozhraní?,ifcondig
+Čím se mění záznamy v routovací tabulce? (UNIX),route
+Čím na UNIXu konfigurovat DHCP?,dhclient
+Co nám říká zpráva Destination Unreachable?,"Buď se nenašlo nic v routovacích tabulkách, nebo UDP služba, které posíláme není dostupná"
+Jaké zprávy používá program Ping?,ICMP Echo a ICMP Echo reply
+Proč byl u Ipv6 vypuštěn check-sum hlavičky?,"Protože se musí přepočítávat, např když router mění TTL. Což je zdlouhavé"
+Obvyklý default pro TTL (IP) dnes?,64
+Kdy router zahodí paket kvůli TTL?,Když sníží TTL v hlavičce na 0
+K čemu je dobrý příkaz traceroute?,"Umožňuje poměrně přesně odhalit strukturu cesty paketu a to díky tomu, že neustále inkrementuje TTL a zkoumá, kde se paket zastaví."
+Jaké jsou nevýhody statických směrovacích tabulek?,"nepružné při změnách, problémy se subnettingem, nesnadné zálohování spojení"
+Jaké jsou výhody statických směrovacích tabulek?,"Snadné, méně citlivé na problémy v síti. Dobré pro malé neměnící se sítě"
+K čemu slouží ICMP Redirect?,"Je to zpráva která říká, že si máme doplnit tabulku o nějaký záznam, pro který posíláme pakety zbytečně složitě."
+Jaké jsou nevýhody dynamických směrovacích tabulek?,"Dá se na ně lépe útočit,"
+Jaký je nejlepšejší routovací program v celičkém vesmíru?,BIRD
+Jaké routavací programy se používají pro lokální sítě?,"RIP (distance-vector), OSPF (link-state)"
+Jaké jsou výhody dynamických směrovacích tabulek?,"Jednoduché změny konfigurace, síť se dokáže opravovat, automaticke udržujícíse směřovací tabulky"
+Jaké jsou nevýhody distance-vector protokolů?,"pomalá reakce na chyby, chyba routeru může rozbít celou síť, metrika neřiší vlastnosti linek, omezený rozsah sítě"
+Jaký je nejstarší směrovací protokol?,RIP
+Jaký algoritmus používá RIP?,Bellman-Fordův
+Co jest VLSM?,"Variable Length Subnet Masking, tím že masky mohou mít proměnlivlou délku je efektivnější co se týká šetřetní adres"
+Metrika u RIP?,"Počet routerů (hopů) na cestě k cíly, v návrhu omezen na 15 (v1)"
+Co značí counting to infinity?,"Když routery počítají v RIPu metriku, tak se může stát, že síť zemře ale oni ji stále vidí a postupně zvyšují počet nutných hopů, než se síť dostane do nekonečna."
+Co jsou to race conditions?,Situace kdy dva nezávislé jevy mohou nastat v nevhodném pořadí
+Výhody Link state protokolů?,"pružná reakce na změnu topologie, každý router počítá sám za sebe, síť lze rozdělit na menší podsítě, výměna dat jen při změnách"
+Nevýhody Link state protokolů?,"Výpočet mapy je náročnější na výkon, start na nestabilní síti může být zátěž"
+Hlavní myšlenka Link state protokolů?,Každů router má mapu sítě a jen si udržuje její změny a vše si sám počítá.
+Co označuje OSPF?,Open Shortest Path First
+Jaký algoritmus se používá v OSPF?,Dijkstrův
+Co označuje AS a jaké protokoly se pro řízení používají?,"Autonomní systémy, externí routovací protokoly (EGP), protokoly jako RIP a OSPF jsou naopak interní"
+Co je to path-vector?,Posloupnost čísel u AS určující AS. Využívají se při hledání cesty do AS.
+Na jaké vrstvě probíhá IP filtrování?,Na transportní
+Co je to demilitarizovaná zóna?,Zvláštní segment sítě s benevolentnějšími filtrovacími pravidly
+Jaké jsou varianty proxy serveru?,"transparentní (nemusí se konfigurovat) a netransparentní (musí, ale díky to lze používat speciálnější HW než jen router)"
+Jak si AS představit?,"Jako skupinu směrovačů pod jednou správou, sdílí směrovací politiku"
+Co je to dsitance-vector protocol?,"Např. RIP, protokoly používající vzdálenost/hop-count jako metriku. Jsou dost jednoduché. Datují se až k ARPAnetu"

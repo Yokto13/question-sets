@@ -1,0 +1,31 @@
+Question,Answer
+Rozdíl mezi autentikací a autorizací?,"Autentikace je ověření identity, autorizace je vymezení oprávnění."
+3 způsoby prokázání totožnosti,"Co znám, co mám, biometrie"
+Co je to SASL?,"Simple Authentication and Security Layer, obecná metodat pro ověřování v situaci klient/server."
+Jaké jsou časté mechanismy ověřování?,"Kerberos, Plain, OTP, Digest-MD5 (xD), LDAP"
+"Co značí DSA, jak zhruba funguje?","Digital Signature Algorithm, od NISTu, podobny ElGamalovi, užití OpenSSL, OpenSSh, GnuPG"
+K čemu se dá použít Cyclic Redundancy Check?,"K ověření toho, že data dorazila bez nějakých chyb."
+Co definuje standard X.509?,Formát certifikátů u věrejných klíčů.
+Struktura certifikátu dle X.509,"verze certifikátu, sériové číslo, vydavatel, doba platnosti, vlastník PK, informace o PK"
+Přes jaký port probíhá HTTPS?,443
+"Co značí TLS, jaké verze se dnes používají?","Transport Layer Security, 1.1,1.2"
+Jak zajistit bezpečost u původně dost naivních protokolů jako TCP/IP?,"Přidá se mezivrstva mezi transportní a aplikační. Secure Socket Layer, dnes spíš TLS"
+Aplikační vrstva TCP/IP spojuje funkce jakých vrstech OSI?,"5,6,7"
+Jaký port využívá DNS?,53
+Co obsahují záznamy v DNS?,"jméno, TTL(doba platnosti), typ a data"
+Co umožňuje EDNS?,Dohodnout se klientovi a serveru na větší než 512B zprávě při UDP v DNS
+Co se stane v DNS když odpověď přesáhne specifikovaný limit?,"Server pošle část odpovědi a příznak TC, klient může zopakovat dotaz v TCP"
+Co v DNS označuje RR?,Resource record
+Jak funguje klient v DNS?,"Posílá dotazy na servery ze své konfigurace, postupně zvyšuje timeout"
+Je protokol DNS textovy?,Ne jde o binarni
+Co je SOA?,"Start Of Authority, úvodní záznam o doméně, obsahuje číslo verze dat, adresu správce"
+Co definují NS?,"Říkají, kam se podívat abychom našli IP adresu domény"
+K čemu slouží PTR?,"Reverzní záznam, umožňuje převod adres na jména"
+CNAME?,"Canonical NAME, záznam pro tvorbu aliasů, alias→kanonické jméno. Alias by neměl vést na další alias, ale běžně se to nedodržuje."
+MX,Mail eXchanger definuje jaky server přijímá pro doménu poštu
+Typy DNS serverů,"primární, sekundární, caching-only"
+Co se používá u DNS serverů pro výměnu dat?,TCP s neformálním formátem dotazu I odpovědi. Odpovědi se pošlou jako DNS RR.
+Kde je definována periodu aktualizace pro sekundární DNS server?,V SOA záznamu.
+Jak funguje cache poisoning?,"Útočník má nějaké legální server, ale v odpovědi na dotaz navíc uvede, že to je on, kdo vlastní cz."
+K čemu slouží nslookup?,"Ke kontrolování chování resolveru, na UNIXu také často dig a drill."
+Jaký je rozdíl mezi protokoly HTTP a HTTPS?,žádný

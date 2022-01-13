@@ -1,0 +1,33 @@
+Question,Answer
+Je FTP textový?,ano
+Na jakém portu dnes FTP funguje?,"20,21"
+Bezpečnostní slabina FTP?,Heslo v plaintextu
+Jak funguje ve zkratce FTP?,"Naváže se řídící spojení a k tomu spojení na přenos dat (na každý soubor nové), obě TCP. Data 20, příkazy 21"
+FTP chybové kódy,"1xx předběžná kladná, 2xx kladná, 3xx neúplná kladná, 4xx dočasná záporná, 5xx trvalá záporná"
+K čemu slouží PASV resp EPSV (pro Ipv6)?,"Při FTP, když je navazování spojení pasivní a navazuje ho tedy klient, potřebuje od serveru adresu a port."
+Na jakém portu funguje elektronická pošta?,25
+Jak funguje SMTP?,"textový na TCP, princip posilani zprav a odpovedi, trochu jako FTP"
+K čemu slouží MTA?,"Označuje se tak každý uzel, který přijímá a doručuje poštu. Mail Transfer Agent."
+Jak bývá MUA (Mail User Agent) připojen do systémi?,"Přímo, rovnou se připojuje na MTA, nebo protokoly POP/IMAP a k odeslání klasicky SMTP"
+Problém obálky u SMTP?,Je falšovatelná
+Jak zakončí uživatel svou odpověď na příkaz DATA?,tečkou
+K čemu slouží rozšíření MIME?,"Umožňuje definovat strukturu a sémantiku těla dopisu, umožňuje např přílohy se soubory"
+Mailový dopis se skládá z?,"Záhlaví (jen ASCII znaky), text zde klidně ESMTP umožňující 8-bit kódování"
+Která hlavička se nevyskytuje ve skutečném dopisu?,Bcc
+Jaké jsou hlavičky dopisu?,"Date, From, Sender, Reply-To, To, Cc, Message-Idm Subject, Received, Bcc"
+Jak se dostaly soubory do pošty?,"Kvůli ASCII se použil UUENCODE z UUCP, v tabulce jen 26 písmen, 10 číslic a 28 míst pro všechny myslitelné další znaky"
+Co označuje zkratka MIME?,Multipurpose Internet Mail Extension
+Co například definuje hlavička MIME?,"Typ dokumentu, znakovou sadu, kódování, původní název souboru, jak soubor zpracovat/zobrazit"
+Co je to multipart?,"Důležitý typ dokumentu v MIME, umožňuje rozdělit tělo na víc částí"
+Metody kódování v MIME?,"Base64, Quoted-Printable"
+Base64 v MIME?,"V podstatě UUENCODE, jen rozšířena tabulka o malá písmena a trochu jiný formát řádek"
+Quoted-Printable v MIME?,"Znak se převede na svoji hexadec podobu, důležitý je poměr non-ASCII a ASCII znaků"
+Změnilo MIME nějak kódování hlaviček?,"Ano, umožňuje non-ASCII v Subject, začíná se =?, identifikator znak sady, identif kodovani, ?, kodovany text, ?="
+STARTTLS?,Příkaz v ESMTP na zahájení SSL/TLS spojení
+Open-relay?,"Tak se označuje server, který posílá maily nelokálních uživatelů komukoliv a lze ho zneužít pro hromadné maily"
+Grey-listing?,"Brání spamu, poprvé se odmítne mail. Sází se na to, že spam servery nekontrolují doručení,"
+Sender Policy Framework?,"Doména definuje jaké servery mohou odeslat poštu, složitá definice MTA, publikována pomocí DNS TXT a poté SPF"
+Co rozbilo Sender Policy Framework?,forwarding
+DomainKeys Identified Mail?,"Podepisování hlavičky a textu dopisu, abych se zabránilo spamu"
+K čemu slouží MX?,"Umožňují doručovat poštu, I když příjemce zrovna není online. Udávají servery a jejich priority, kam se má pošta zkusit odeslat"
+Co je obálka?,"Označuje SMTP příkazy, které zajišťují odeslání zprávy"

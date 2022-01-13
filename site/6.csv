@@ -1,0 +1,51 @@
+Question,Answer
+Nad jakým protokolem pro přenos dat pracuje standartně NFS?,"UDP, ale lze I TCP"
+Co značí zkratka NFS?,Network File System
+Co značí zkratka SMB?,Server Message Block
+Co řeší SMB a NFS?,Připojení ke svému PC disk z jiného počítače a práci s ním jako by šlo o lokální.
+Jak vznikla Samba?,Microsoft koupil SMB a Unixáci ho chtěli také používat tak si ho reversengeneerli
+Čím lze nahradit NFS když potřebujeme složitější systém přístupových práv než UNIXový?,Andre File System (AFS)
+K čemu slouží Network Time Protocol?,K synchronizaci času mezi uzly sítě
+Který port NTP používá?,123
+Který zdroj řídí server se stratum N?,"Stratum N-1, 0 bývají např atomové hodiny."
+Jaký algoritmus využívá NTP?,Marzullův
+Čím byl nahrazen BOOTP?,Dynamic Host Configuration Protocol
+Jak DHCP především rozšířlo BOOTP?,"Dynamická alokace adres, časově omezený pronájem adres, kooperace více serverů"
+Pod jakým zatemňujícím názvem najdeme DHCP na MS Windows?,Získat IP adresu automaticky
+Pro co byl původně vyvinut BOOTP?,Pro automatickou konfiguraci bezdiskových stanic
+Jaký konec vajíček mají rádi uživatelé TCP/IP?,Samozřejmě velký!
+Co se stalo vrstvám OSI 6 a 5 v TCP/IP?,Byly zatlačeny do aplikační vrstvy
+Hlavní rozdíl mezi TCP a UDP?,"TCP je spojované, UDP ne"
+Je TCP a TCP/IP to samé?,"Ne, TCP/IP je rodina protkolů obsahůjících mj. TCP, IP, UDP"
+Co je multiplexing?,Kombinování více datových toků do jednoho signálu
+Jak TCP identifikuje segmenty?,Pomocí sequence number
+Jaká část hlavičky umožní TCP potvrdit doručení?,Acknowledgement Number
+K čemu se používá v TCP hlavičce pole Urgent pointer?,K out-of-band přenosu. Příznak URG.
+Jak funguje posílání ACK v TCP?,"Počítači nechce posílat pakety jen tak, tak čeká jestli nebude muset protistraně poslat data, pokud ano, přibalí ACK, jinak pošle samosatně"
+Co označuje three-way handsahke v TCP?,Způsob jakým se na začátku dohodnout komunikační strany na náhodné sequence number. Jde o 3 pakety.
+Co značí TCP příznak SYN?,Na začátku three-way handshaku se posílá synchronizačný paket s příznakem SYN.
+Jaký příznka ukončuje TCP spojení?,FIN
+K čemu slouží PSH příznak?,"Informuje příjemce, že obdržel kompletní blok a má ho předat aplikaci."
+K čemu slouží RST příznak?,"Odesilatel oznamuje, že pro něj spojení končí a už v něm neplánuje dál pokračovat ani nečeká na potvrzení konce."
+Co vypíše příkaz netstat -a?,Seznam všech TCP a UDP serverů a otevřených TCP spojení z našeho počítače
+Co značí okno v TCP?,"Rozsah dat, které lze poslat, aniž by se čekalo na potvrzení"
+Jaké činnosti probíhají v OSI 3?,"adresace, zapozdření, směrování, přeposílání, decapsulation"
+Přiklady protokolů pro OSI 3?,"Ipv4, Ipv6, IPX, AppleTalk"
+Vlastnosti Internet protokolu?,"nespojovaný, best effort, nezávislost na médiu"
+Kolik bytů má Ipv4 a Ipv6?,"4, 16"
+Co značí QoS?,Quality of Service
+K čemu slouží Path MTU Discovery?,K nalezení MTU (Maximal Transition Unit). Dobré aby se zabránilo fragmentování
+Je hlavička IP striktně definovaná?,"Musí obsahovat vše nutné pro doručení, ale lze tam přibalit I volitelné položky, takže to úplně stritkní není"
+Jaké je maximální délka IP hlavičky?,60 bajtů
+V čem se udává délka IP hlavičky?,V 32 bitovém slově
+Jak se používají link-local adresy?,"Umožňují komunikaci jen uvnitř sítě. Jsou volně k dispozici, každý počítač si muže libovolnou adresu vzít a zahájit komunikaci."
+K čemu slouží síťová maska?,"Umožňuje specifikovat rozsah sítě. Jedničky tam, kde je adresa, pak se ANDuje."
+Jak je rozčleněna Ipv4 adresa? RFC 717,"1B adresa sítě, 3B adresa počítače. Adresní prostor se rychle vyčerpal"
+Co zavedlo RFC791 (Ipv4)?,"třídy A(1:3), B(1:1), C(3:1), později ještě  třída D pro multicast adresy"
+K čemu se používají multicastové adresy?,K oslovení skupiny příjemců
+O co šlo v krizi internetu?,"Přeplňovaly se směřovací tabulky, vyčerpání adresního prostoru"
+Jaké jsou druhy adres v IP v6?,"unicast, multicast, anycast, není ale broadcast"
+Proč je synchronizace času tak důležitá?,"Pro přenos souborů; pro práci administrátora, když čte logy"
+Jaké jsou broadcastovéř adresy? (Ipv4),"255.255.255.255 limited broadcast, síť.samé 1"
+Co označuje CIDR?,Classless InterDomain Routing
+K čemu slouží princip CIDR?,Ušetření místa na směrovačích. Supernetting na sítě které spolu sousedí numericky I fyzicky. Agregace sítí
