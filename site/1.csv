@@ -1,4 +1,4 @@
-Q,A
+Question,Answer
 Na jaké vrstvy se doporučuje rozdělit infrastrukturu LAN?,"Core, distribuční, vrstva přístupu"
 Přes jakou vrstvu je síť připojena k ISP?,Core vrstvu
 Jak se jinak říká distribuční vrstvě LAN?,Vertikální
@@ -19,3 +19,10 @@ Co znamená RFC?,Requests For Comments
 Starší dokumenty RFC jsou označovány jak?,"Obsoleted, nebo Updated (v druhém případě platí nový I starý dokument)"
 Jaké jsou výhody a nevýhody přepojování paketů?,"Výhody odolnější a bezpečnější: výpadek uzlu není atální, nevýhody méně plynulé liší se doba přenosu"
 Co je smyslem požadavku na škálovatelnost sítě?,Aby se do sítě mohly připojovat snadno stále nová zařízení a nevyžadovalo to velké zásahy do konfigurace sítě
+Co je to router/směřovač?,Zařízení propojující různé sítě.
+Co dělá switch?,Propojuje uzly sítě navzájem
+Jaký je rozdíl mezi hubem a switchem?,"Hub pracuje na fyzické vrstvé, half-duplex, pasivní, switch linkové, full-duplex, aktivně zasahuje do komunikace, pracuje s pakety"
+Internet Exchange Point (IXP)?,Je místo kde se propojují různí ISP
+Popište strategii garance kvality,"vyhrazená šířka pásma, plýtvá kapacitou, zaručená kvalita"
+Co je to termináľ?,"Jednoduché zařízení s klávesnicí a obrazovkou, komunikující s PC"
+Co je to MAN?,Metropolitan Area Network
