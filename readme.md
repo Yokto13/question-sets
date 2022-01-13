@@ -5,7 +5,7 @@ the corresponding courses are in Czech the whole repo is also in Czech.
 # Sbírka active-recall otázek do Sphinx
 
 Tento repozitář slouží primárně jako sklad active-recall otázek formátovaných tak,
-aby šli použít se [sphinx][https://github.com/Yokto13/sphinx].
+aby šli použít se [sphinx](https://github.com/Yokto13/sphinx).
 
 Dají se, ale používat i samostatně k procvičení jakékoliv látky.
 
