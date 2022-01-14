@@ -54,3 +54,4 @@ Jak vypadá URI adresa?,"schéma:[//]autorita[cesta][?dotaz][#fragment], autorit
 Co značí URI?,Uniform Resource Identifier
 Co je multiplexing?,Spojování více analogových signálů nebo digitáľních datových toků do jednoho signálu
 Co je zapouzdření?,"v počítačových sítích spočívá ve vložení protokolové datové jednotky (Protocol Data Unit - PDU) vyšší vrstvy do protokolové jednotky nižší vrstvy, což umožňuje, aby vyšší vrstva mohla používat služby nižší vrstvy v protokolovém zásobníku a zároveň, aby data vyšší vrstvy mohla být přepravena sítí k protějšku na stejné vrstvě na jiném uzlu. "
+Co je to LDAP?,"Následovník DAPu, databáze údajů o osobách a službách"

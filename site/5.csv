@@ -1,33 +1,33 @@
 Question,Answer
-K ?emu slouí Post Office Protocol?,"Pro p?ístup uivatel?m k pošt schránce, nahrazován IMAP, plaintext poutí Obsoleted 2018"
-"Na jakém portu Poct Office Protocol funguje, RFC, a verze?","Port 110, verze 3, RFC 1939"
-Nevıhody Post Office Protocol?,"Heslo v plaintextu, dopisy se z serveru stahují celé, nelze pracovat se strukturou dokument?"
-Rozší?ení Post Office Protocol?,"APOP pro šifrovanou autentikaci, TOP pro staení za?átku dopisu"
-Port IMAPu?,"143, 993 šifrování"
-Vıhody IMAP oproti POP?,"Šifrovatelné, server uchovává stavy dopis?, více schránek, vydání jen ?ásti dopisu, vyhledávání v dopisech na serveru, paralelní p?íkazy"
-Co umo?uje IMAP posílat více p?íkaz? naráz?,"Kadı p?íkaz má identifikátor, take server dokáe snadno rozlišit jakou odpov?? poslat na jakı dotaz."
-Jak fungovaly v Gopheru obrázky?,"Um?l poskytnout pouze textové informace, uivatel si musel otev?ít obrázek v jiném programu, by? ho Gopher stáhnul."
-Kde se zrodil World Wide Web?,"V CERNu roku 1989, myšlenka hypertextu a hypermediálního textu byla u ale d?ív"
-Verze HTTP 1.1?,"Textovı, server odpovídám kódem odpov?di hlavi?kami s MIME typem zasílaného dokumentu a dokumentem"
+K Äemu slouÅ¾Ã­ Post Office Protocol?,"Pro pÅ™Ã­stup uÅ¾ivatelÅ¯ k poÅ¡tovnÃ­ schrÃ¡nce, nahrazovÃ¡n IMAP, plaintext pouÅ¾it Obsoleted 2018"
+"Na jakÃ©m portu Poct Office Protocol funguje, RFC, a verze?","Port 110, verze 3, RFC 1939"
+NevÃ½hody Post Office Protocol?,"Heslo v plaintextu, dopisy se z serveru stahujÃ­ celÃ©, nelze pracovat se strukturou dokument?"
+RozÅ¡Ã­Å™enÃ­ Post Office Protocol?,"APOP pro Å¡ifrovanou autentikaci, TOP pro staÅ¾enÃ­ zaÄÃ¡tku dopisu"
+Port IMAPu?,"143, 993 Å¡ifrovanÃ©"
+VÃ½hody IMAP oproti POP?,"Å¡ifrovatelnÃ½, server uchovÃ¡vÃ¡ stavy dopisÅ¯, vÃ­ce schrÃ¡nek, vydÃ¡nÃ­ jen ÄÃ¡sti dopisu, vyhledÃ¡vÃ¡nÃ­ v dopisech na serveru, paralelnÃ­ pÅ™Ã­kazy"
+Co umoÅ¾Åˆuje IMAP posÃ­lat vÃ­ce pÅ™Ã­kazÅ¯ narÃ¡z?,"KaÅ¾dÃ½ pÅ™Ã­kaz mÃ¡ identifikÃ¡tor, takÅ¾e server dokÃ¡Å¾e snadno rozliÅ¡it jakou odpovÄ›Ä poslat na jakÃ½ dotaz."
+Jak fungovaly v Gopheru obrÃ¡zky?,"UmÄ›l poskytnout pouze textovÃ© informace, uÅ¾ivatel si musel otevÅ™Ã­t obrÃ¡zek v jinÃ©m programu, byÅ¥ ho Gopher stÃ¡hnul."
+Kde se zrodil World Wide Web?,"V CERNu roku 1989, myÅ¡lenka hypertextu a hypermediÃ¡lnÃ­ho textu byla uÅ¾ ale dÅ™Ã­v"
+Verze HTTP 1.1?,"TextovÃ½, server odpovÃ­dÃ¡ kÃ³dem odpovÄ›di, hlaviÄkami s MIME typem zaslanÃ©ho dokumentu a dokumentem"
 HTTP port?,80
-Chybové kódy v HTTP,"1xx mı? na serveru, 2xx definitivni, 3xx mí? u klienta, 4xx chyba u klienta, 5xx chyba u serveru"
+ChybovÃ© kÃ³dy v HTTP,"1xx mÃ­Ä na serveru, 2xx definitivni, 3xx mÃ­Ä u klienta, 4xx chyba u klienta, 5xx chyba u serveru"
 Metody HTTP,"GET, HEAD, POST, PUT, DELETE, CONNECT"
-Které HTTP metody jsou bezbe?né?,"GET, HEAD"
-Ketrá jediná HTTP metoda není idempotentní?,POST
-Obecn? k HTTP v2?,"Binární, v?tší propustnosti, lze na n?j p?echázeet v rámci HTTP/1, efektivní komprimace hlavi?ek, více stream? v rámci jednoho TCP, pushování dat klientovi"
-K ?emu se dá dnes pouíte telnet?,"Navázání spojení na server pracující v jiném protokolu, na odd?leném segmentu lokální sít?"
+KterÃ© HTTP metody jsou bezpeÄnÃ©?,"GET, HEAD"
+KterÃ¡ jedinÃ¡ HTTP metoda nenÃ­ idempotentnÃ­?,POST
+Obecn? k HTTP v2?,"BinÃ¡rnÃ­, vÄ›tÅ¡Ã­ propustnost, lze na nÄ›j pÅ™echÃ¡zet v rÃ¡mci HTTP/1, efektivnÃ­ komprimace hlaviÄek, vÃ­ce streamÅ¯ v rÃ¡mci jednoho TCP, pushovÃ¡nÃ­ dat klientovi"
+K Äemu se dÃ¡ dnes pouÅ¾Ã­vat telnet?,"NavÃ¡zÃ¡nÃ­ spojenÃ­ na server pracujÃ­cÃ­ v jinÃ©m protokolu, na oddÄ›lenÃ©m segmentu lokÃ¡lnÃ­ sÃ­tÄ›"
 Co nahrazuje telnet?,SSH
 Port pro SSH?,22
 Klienti pro SSH na windows? :(,"putty, winscp"
-Co umo?uje navíc SSH v2?,"Tunelování, SSHFS, paralelní kanály"
-K ?emu slouí Voice over IP?,Obecn? nástroje na p?enos (nejen) hlasu pomocí TCP/IP. Nejde o jeden konkrétní protokol.
-Co ozna?uje H.323?,"?ádu samostatnıch protokol? pro Voice over IP, binární, ne?itelné a velmi obtín? implementovatelné"
-Co nahrazuje v H.323 fázi p?ípravy hovoru?,SIP
-Co v H.323 zodpovídá za posílání audia a videa?,RTP protokol
-Co v H.323 ?ídí ?innost protokoluv RTP?,Protokol RTCP
-Co ozna?uje ASN1?,Abstract Syntact Notation 1 (notn? abstraktní zkratka)
-Co je vıhodoy ASN1?,"Je extrémn? kompaktní, tím e pracuje s daty po bitech. Ale je to sloité na implementaci."
-Jakı port vyuívá SIP?,5060
-Kterému protokolu se architekturou podobá SIP?,HTTP
-Jak ?eší SIP vlastní p?enos dat?,"Ne?eší, pouívá RTP/RTCP"
-"Co to znamená, kdy je metoda idempotentní?",Opakováné uití má stejnı efekt
+Co umoÅ¾Åˆuje navÃ­c SSH v2?,"TunelovÃ¡nÃ­, SSHFS, paralelnÃ­ kanÃ¡ly"
+K Äemu slouÅ¾Ã­ Voice over IP?,ObecnÄ› nÃ¡stroje na pÅ™enos (nejen) hlasu pomocÃ­ TCP/IP. Nejde o jeden konkrÃ©tnÃ­ protokol.
+Co oznaÄuje H.323?,"Å™adu samostatnÃ½ch protokolÅ¯ pro Voice over IP, binÃ¡rnÃ­, neÄitelnÃ© a velmi obtÃ­nÄ› implementovatelnÃ©"
+Co nahrazuje v H.323 fÃ¡zi pÅ™Ã­pravy hovoru?,SIP
+Co v H.323 zodpovÃ­dÃ¡ za posÃ­lÃ¡nÃ­ audia a videa?,RTP protokol
+Co v H.323 Å™Ã­dÃ­ Äinnost protokoluv RTP?,Protokol RTCP
+Co oznaÄuje ASN1?,Abstract Syntact Notation 1 (notnÄ› abstraktnÃ­ zkratka)
+Co je vÃ½hody ASN1?,"Je extrÃ©mnÄ› kompaktnÃ­, tÃ­m Å¾e pracuje s daty po bitech. Ale je to sloÅ¾itÃ© na implementaci."
+JakÃ½ port vyuÅ¾Ã­vÃ¡ SIP?,5060
+KterÃ©mu protokolu se architekturou podobÃ¡ SIP?,HTTP
+Jak Å™eÅ¡Ã­ SIP vlastnÃ­ pÅ™enos dat?,"NeÅ™eÅ¡Ã­, pouÅ¾Ã­vÃ¡ RTP/RTCP"
+"Co to znamenÃ¡, kdyÅ¾ je metoda idempotentnÃ­?",OpakovanÃ© uÅ¾itÃ­ mÃ¡ stejnÃ½ efekt
