@@ -1,0 +1,17 @@
+Question
+Nakresli zjednodušené schéma vnitřku procesoru? (jádra, thready, rozdělení caches)
+Co je MESI?
+Jaké problémy přináší slicovaná L3 cache u Coffee Lake?
+Co je pipelining?
+Jaká instrukce dělá problémy v pipeliningu?
+Co je to reservation station?
+Co je AGU?
+Jak vypadá oblíbená pyramida Yaghoba?
+Jak fungují registry v CPU?
+Definuj slovo.
+Který adressing je rychlejší column/row?
+Co nám říká CAS?
+Převod do dvojkového doplňku?
+Jak se v paměti ukládají floating point čísla?
+Vysvětli endianitu.
+Vysvětli data alignment.

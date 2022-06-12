@@ -1,0 +1,19 @@
+Question
+Co je Intel Optane?
+Jaké funkce má paměťový řadič?
+Které z timing čísel u pamětí je pro nás zajímavé?
+Vysvětli formát IEEE753.
+Kde se setkáme s little endianitou a kde s big?
+Co je to aréna v kontextu paměti?
+Co je to fragmentace paměti?
+Interní vs externí fragmentace?
+Jak souvisí bitmapa s dynamickou alokací paměti?
+First fit?
+Next fit?
+Best fit?
+Worst fit?
+Co je buddy memory alokace?
+Jak se hledají kamarádi v buddy alokaci, když uvolňujeme blok?
+Nevýhoda buddy systému?
+Co je to cache?
+Co označuje LCC?

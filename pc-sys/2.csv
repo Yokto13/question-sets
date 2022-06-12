@@ -1,0 +1,18 @@
+Question
+Kopírují se parametry pří předání funkci?
+Rozdíl mezi předávání pointerů a referencí?
+Co vrací sizeof?
+Co vrátí sizeof zavolaný s pointerem?
+Jak se deklaruje constructor třídy?
+Co značí SoC?
+Harvardská vs von Neumman?
+Co je to ISA?
+Co je to instrukce?
+K čemu slouží OP Code?
+Kolik operandů mívají max instrukce?
+Na čem záleží počet operandů instrukce?
+Co je to proměnné kódování?
+Co je to instrukce podmíněného skoku?
+Direct x indirect x relative?
+Jak se využívá zásobník pro práci s funkcemi?
+Jak přepsat if-else větev do assembleru (asi x86)?
